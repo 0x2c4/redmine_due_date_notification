@@ -30,7 +30,7 @@ Redmine::Plugin.register :due_date_reminder do
   author '0x2c4'
   description 'notifications about due date'
   version '0.1'
-  url 'https://github.com/0x2c4/due_date_reminder'
+  url 'https://github.com/0x2c4/redmine_due_date_reminder'
   author_url 'https://github.com/0x2c4'
   requires_redmine :version_or_higher => '4.0.0'
   settings :default => {'reminder_notification' => '1,2,3,4,5,6,7'}, :partial => 'reminder/settings'
