@@ -9,7 +9,7 @@ The days of the week must be written as numbers and divided using a comma (1,2,3
 * redmine 4.x and up
 
 ## Installation
-	git clone git://github.com/0x2c4/due_date_reminder.git /your_redmine_root_directory/plugins/due_date_reminder
+	git clone git://github.com/0x2c4/redmine_due_date_reminder.git /your_redmine_root_directory/plugins/due_date_reminder
 	cd /your_redmine_root_directory/
 	bundle install
 	bundle exec rake redmine:plugins:migrate RAILS_ENV=production
